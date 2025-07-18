@@ -35,7 +35,7 @@ Each record represents a unique SKU (Stock Keeping Unit) — meaning a product c
 
 ### 🔧 Workflow Breakdown
 
-Table Creation
+# Table Creation
 
 Created a SQL table with appropriate data types using:
 
@@ -60,7 +60,7 @@ CREATE TABLE zepto (
 Used pgAdmin’s import tool to load the dataset.
 
 
-###📦 Data Exploration
+### 📦 Data Exploration
 
 -Total number of products in the catalog
 -Sampling rows to understand structure
