@@ -38,7 +38,7 @@ Each record represents a unique SKU (Stock Keeping Unit) — meaning a product c
 # 1️⃣ Table Creation
 Created a SQL table with appropriate data types using:
 
-``sql
+```sql
 CREATE TABLE zepto (
   sku_id SERIAL PRIMARY KEY,
   category VARCHAR(120),
@@ -52,11 +52,11 @@ CREATE TABLE zepto (
   quantity INTEGER
 );
 
-Data Import
+🛠️ Data Import
 Used pgAdmin’s import tool to load the dataset.
 
 
-Data Exploration
+📦 Data Exploration
 -Total number of products in the catalog
 -Sampling rows to understand structure
 -Null value detection across all fields
@@ -65,14 +65,14 @@ Data Exploration
 -Duplicate detection for same products with varying sizes/prices.
 
 
-Data Cleaning
+🧹 Data Cleaning
 -Removed products where MRP or discounted price was zero
 -Converted prices from paise to rupees
 -Handled type mismatches or invalid rows
 -Ensured consistency in numeric fields (weights, prices)
 
 
-Business Analysis Queries
+🧠 Business Analysis Queries
 🔟 Top 10 best-value products (highest discount %)
 
 🚫 High-MRP items currently out of stock
