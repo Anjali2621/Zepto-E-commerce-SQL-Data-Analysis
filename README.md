@@ -35,7 +35,7 @@ Each record represents a unique SKU (Stock Keeping Unit) — meaning a product c
 
 🔧 Workflow Breakdown
 
-# 1️⃣ Table Creation
+# Table Creation
 Created a SQL table with appropriate data types using:
 
 ```sql
@@ -51,6 +51,8 @@ CREATE TABLE zepto (
   outOfStock BOOLEAN,
   quantity INTEGER
 );
+
+```
 
 🛠️ Data Import
 Used pgAdmin’s import tool to load the dataset.
