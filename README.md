@@ -35,7 +35,8 @@ Each record represents a unique SKU (Stock Keeping Unit) — meaning a product c
 
 ### 🔧 Workflow Breakdown
 
-# Table Creation
+Table Creation
+
 Created a SQL table with appropriate data types using:
 
 ```sql
