@@ -19,7 +19,7 @@ The dataset is publicly available on **Kaggle**, originally scraped from Zepto's
 
 Each record represents a unique SKU (Stock Keeping Unit) — meaning a product can appear multiple times in different sizes, weights, or discounts, just like in real retail systems.
 
-# 🔢 Key Columns:
+### 🔢 Key Columns:
 
 - `sku_id`: Unique ID for each product entry (synthetic primary key)
 - `name`: Product name (e.g., "Tata Salt", "Amul Milk")
@@ -33,7 +33,7 @@ Each record represents a unique SKU (Stock Keeping Unit) — meaning a product c
 - `quantity`: Units per package (or grams for loose items)
 
 
-🔧 Workflow Breakdown
+### 🔧 Workflow Breakdown
 
 # Table Creation
 Created a SQL table with appropriate data types using:
@@ -54,12 +54,12 @@ CREATE TABLE zepto (
 
 ```
 
-🛠️ Data Import
+### 🛠️ Data Import
 
 Used pgAdmin’s import tool to load the dataset.
 
 
-📦 Data Exploration
+###📦 Data Exploration
 
 -Total number of products in the catalog
 -Sampling rows to understand structure
@@ -69,7 +69,7 @@ Used pgAdmin’s import tool to load the dataset.
 -Duplicate detection for same products with varying sizes/prices.
 
 
-🧹 Data Cleaning
+### 🧹 Data Cleaning
 
 -Removed products where MRP or discounted price was zero
 -Converted prices from paise to rupees
@@ -77,7 +77,7 @@ Used pgAdmin’s import tool to load the dataset.
 -Ensured consistency in numeric fields (weights, prices)
 
 
-📊 Business Analysis Queries
+### 📊 Business Analysis Queries
 
 🔟 Top 10 best-value products (highest discount %) <br>
 🚫 High-MRP items currently out of stock <br>
@@ -89,7 +89,7 @@ Used pgAdmin’s import tool to load the dataset.
 🏋️ Total weight in stock per category 
 
 
-🧠 Key Learnings
+### 🧠 Key Learnings
 
 -Hands-on experience importing and transforming raw data in PostgreSQL<br>
 -Writing efficient, real-world SQL queries for business use-cases<br>
@@ -97,7 +97,7 @@ Used pgAdmin’s import tool to load the dataset.
 -Exposure to typical e-commerce data challenges (redundancies, inconsistencies, conversions)<br>
 
 
-🔗 Dataset Source
+### 🔗 Dataset Source
 
 Kaggle: [Zepto E commerce Dataset](https://www.kaggle.com/datasets/palvinder2006/zepto-inventory-dataset/data?select=zepto_v2.csv)
 
