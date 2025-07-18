@@ -77,7 +77,7 @@ Used pgAdmin’s import tool to load the dataset.
 -Ensured consistency in numeric fields (weights, prices)
 
 
-🧠 Business Analysis Queries
+📊 Business Analysis Queries
 
 🔟 Top 10 best-value products (highest discount %) <br>
 🚫 High-MRP items currently out of stock <br>
@@ -90,7 +90,14 @@ Used pgAdmin’s import tool to load the dataset.
 
 
 🧠 Key Learnings
+
 -Hands-on experience importing and transforming raw data in PostgreSQL<br>
 -Writing efficient, real-world SQL queries for business use-cases<br>
 -Data storytelling through structured query results<br>
 -Exposure to typical e-commerce data challenges (redundancies, inconsistencies, conversions)<br>
+
+
+🔗 Dataset Source
+
+Kaggle: [Zepto E commerce Dataset](https://www.kaggle.com/datasets/palvinder2006/zepto-inventory-dataset/data?select=zepto_v2.csv)
+
