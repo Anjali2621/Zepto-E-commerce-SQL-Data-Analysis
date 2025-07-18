@@ -87,3 +87,10 @@ Used pgAdmin’s import tool to load the dataset.
 ⚖️ Price-per-gram comparisons to identify value picks <br>
 🧱 Inventory categorization by weight: Light / Medium / Bulk <br>
 🏋️ Total weight in stock per category 
+
+
+🧠 Key Learnings
+-Hands-on experience importing and transforming raw data in PostgreSQL<br>
+-Writing efficient, real-world SQL queries for business use-cases<br>
+-Data storytelling through structured query results<br>
+-Exposure to typical e-commerce data challenges (redundancies, inconsistencies, conversions)<br>
