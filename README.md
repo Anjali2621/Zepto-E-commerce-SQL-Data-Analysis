@@ -79,11 +79,11 @@ Used pgAdmin’s import tool to load the dataset.
 
 🧠 Business Analysis Queries
 
-🔟 Top 10 best-value products (highest discount %)
-🚫 High-MRP items currently out of stock
-📈 Estimated potential revenue by category
-💰 Expensive products (MRP > ₹500) with negligible discounts
-🏷️ Top 5 categories offering highest average discounts
-⚖️ Price-per-gram comparisons to identify value picks
-🧱 Inventory categorization by weight: Light / Medium / Bulk
-🏋️ Total weight in stock per category
+🔟 Top 10 best-value products (highest discount %) <br>
+🚫 High-MRP items currently out of stock <br>
+📈 Estimated potential revenue by category <br>
+💰 Expensive products (MRP > ₹500) with negligible discounts <br>
+🏷️ Top 5 categories offering highest average discounts <br>
+⚖️ Price-per-gram comparisons to identify value picks <br>
+🧱 Inventory categorization by weight: Light / Medium / Bulk <br>
+🏋️ Total weight in stock per category 
