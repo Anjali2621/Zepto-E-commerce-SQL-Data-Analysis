@@ -55,10 +55,12 @@ CREATE TABLE zepto (
 ```
 
 🛠️ Data Import
+
 Used pgAdmin’s import tool to load the dataset.
 
 
 📦 Data Exploration
+
 -Total number of products in the catalog
 -Sampling rows to understand structure
 -Null value detection across all fields
@@ -68,6 +70,7 @@ Used pgAdmin’s import tool to load the dataset.
 
 
 🧹 Data Cleaning
+
 -Removed products where MRP or discounted price was zero
 -Converted prices from paise to rupees
 -Handled type mismatches or invalid rows
@@ -75,18 +78,12 @@ Used pgAdmin’s import tool to load the dataset.
 
 
 🧠 Business Analysis Queries
+
 🔟 Top 10 best-value products (highest discount %)
-
 🚫 High-MRP items currently out of stock
-
 📈 Estimated potential revenue by category
-
 💰 Expensive products (MRP > ₹500) with negligible discounts
-
 🏷️ Top 5 categories offering highest average discounts
-
 ⚖️ Price-per-gram comparisons to identify value picks
-
 🧱 Inventory categorization by weight: Light / Medium / Bulk
-
 🏋️ Total weight in stock per category
